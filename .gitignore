@@ -1,0 +1,21 @@
+*.pyc
+*.class
+*.jar
+
+#忽略mac拉的屎
+.DS_Store
+
+#忽略cluade code拉的屎
+CLAUDE.md
+.claude/
+
+#忽略pycache拉的屎
+__pycache__/
+*__pycache__/
+
+#忽略build拉的屎
+build/
+dist/
+pjvm.egg-info/
+
+cmd.py
