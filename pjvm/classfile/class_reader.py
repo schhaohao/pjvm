@@ -46,7 +46,7 @@ class ClassReader:
 
 if __name__ == "__main__":
     #读取字节码文件
-    data = open("/Users/sunchenhao/Documents/Workspace1/Java_projects/Java_study/src/exp1/HelloWorld.class", "rb").read()
+    data = open("~/Documents/Workspace1/Java_projects/Java_study/src/exp1/HelloWorld.class", "rb").read()
     reader = ClassReader(data)
     print(reader.read_u4())
     
